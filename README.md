@@ -4,7 +4,7 @@ A modern and responsive portfolio website built with React and Vite to showcase 
 
 ## 🚀 Live Demo
 
-🔗 **Website:** https://vercel.com/sandesh-jadhav/sandeshj11
+🔗 **Website:** https://sandeshj11.vercel.app/
 
 ## ✨ Features
 
@@ -67,7 +67,7 @@ This portfolio website showcases my work, skills, and continuous learning journe
 
 - GitHub: https://github.com/sandeshmangeshjadhav002
 - LinkedIn: https://www.linkedin.com/in/sandeshmangeshjadhav002/
-- Portfolio:https://vercel.com/sandesh-jadhav/sandeshj11
+- Portfolio:[https://sandeshj11.vercel.app/
 
 ---
 
