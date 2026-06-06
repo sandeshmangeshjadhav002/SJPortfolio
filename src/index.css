@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-primary: #3b82f6; /* A clean blue */
+  --color-accent: #f59e0b;
+  --color-zinc-950: #09090b;
+  --color-zinc-900: #18181b;
+  --color-zinc-800: #27272a;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Cleaner Borders */
+.border-thin {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Bento Style Card */
+.bento-card {
+  background: #09090b;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 32px;
+  transition: all 0.3s ease;
+}
+
+.bento-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  background: #111113;
+}
+
+/* Clean Typography spacing */
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Removing Neon Effects */
+.neon-text-blue, .neon-text-purple, .neon-border-blue {
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Lenis Smooth Scroll */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
